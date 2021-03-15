@@ -76,6 +76,8 @@
       font-size: 88px;
       color: #fff;
       line-height: 96px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
     }
 
     .div-banner-desc p {
@@ -203,8 +205,12 @@
       border-radius: 5px;
     }
 
+    .carousel-inner .btn-arrow-left,
+    .carousel-inner .btn-arrow-right,
     .carousel-inner .btn-arrow-left:hover,
-    .carousel-inner .btn-arrow-right:hover {
+    .carousel-inner .btn-arrow-right:hover,
+    .carousel-inner .btn-arrow-left:active,
+    .carousel-inner .btn-arrow-right:active {
       background-color: transparent;
     }
 
