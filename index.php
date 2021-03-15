@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" async defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./services.css">
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
   </head>
   <body>
     <style media="screen">
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
     h1, h2, h3, h4, h5 {
       font-family: 'Poppins', sans-serif;
@@ -49,6 +51,7 @@
       position: absolute;
       top: 0px;
       z-index: -1;
+      width: 100%;
     }
 
     .carousel-inner {
@@ -174,6 +177,10 @@
     .div-img img {
       /* background-color: darkgray; */
       width: 100%;
+    }
+
+    .carousel-container #carouselExampleIndicators .carousel-indicators {
+      margin-bottom: 3em;
     }
 
     .carousel-indicators button.btn-indicator {
@@ -308,8 +315,82 @@
         </button>
       </div>
     </div>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
+    <div class="div-services">
+      <div class="div-services-intro">
+        <h3>Our Services</h3>
+        <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+      </div>
+      <div class="div-featured-services">
+        <div class="div-featured">
+
+          <div class="div-title">
+
+            <h4><a href="#">Graphics Design</a></h4>
+
+            <div class="div-title-icon">
+
+              <i class="bi bi-brush"></i>
+
+              <div class="div-pink-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="Pink Background-Image">
+              </div>
+
+            </div>
+          </div>
+
+          <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+
+          <a href="#">LEARN MORE</a>
+
+        </div>
+
+        <div class="div-featured">
+
+          <div class="div-title">
+
+            <h4><a href="#">Website Design</a></h4>
+
+            <div class="div-title-icon">
+
+              <i class="bi bi-columns-gap"></i>
+
+              <div class="div-pink-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="Pink Background-Image">
+              </div>
+
+            </div>
+          </div>
+
+          <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+
+          <a href="#">LEARN MORE</a>
+
+        </div>
+
+        <div class="div-featured">
+
+          <div class="div-title">
+
+            <h4><a href="#">Digital Marketing</a></h4>
+
+            <div class="div-title-icon">
+
+              <i class="bi bi-lightning-charge"></i>
+
+              <div class="div-pink-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="Pink Background-Image">
+              </div>
+
+            </div>
+          </div>
+
+          <p>Short description for the ones who look for something new. Short description for the ones who look for something new.</p>
+
+          <a href="#">LEARN MORE</a>
+
+        </div>
+
+      </div>
+    </div>
   </body>
 </html>

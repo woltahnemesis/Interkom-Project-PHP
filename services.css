@@ -1,0 +1,93 @@
+.div-services {
+  padding: 120px 0 130px 0;
+  background-color: #f4f6f7;
+}
+
+.div-services .div-services-intro {
+  text-align: center;
+}
+
+.div-services .div-services-intro h3 {
+  font-size: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.div-services .div-services-intro p {
+  width: 37%;
+  margin: 0 auto;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 24px;
+}
+
+.div-services .div-featured-services {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10em;
+}
+
+.div-services .div-featured-services .div-featured {
+  background-color: #fff;
+  margin-top: 40px;
+  padding: 40px 20px 52px 20px;
+  width: 22em;
+}
+
+.div-services .div-featured-services .div-featured p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #121212;
+  margin-top: 16px;
+}
+
+.div-services .div-featured-services .div-featured a {
+  color: #0067f4;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 29px;
+  text-decoration: none;
+  display: block;
+}
+
+.div-services .div-featured-services .div-featured .div-title {
+  display: flex;
+}
+
+.div-services .div-featured-services .div-featured .div-title h4 {
+  margin: 0 1em 0 0;
+}
+
+.div-services .div-featured-services .div-featured .div-title h4 a {
+  text-decoration: none;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.div-services .div-featured-services .div-featured .div-title h4 a:hover {
+  color: #0067f4;
+}
+
+.div-services .div-featured-services .div-featured .div-title .div-title-icon {
+  position: relative;
+  margin-left: 0 0 0 1em;
+}
+
+.div-services .div-featured-services .div-featured .div-title .div-title-icon i {
+  font-size: 88px;
+  color: #0067f4;
+  position: absolute;
+  top: -20px;
+  z-index: 1;
+}
+
+.div-services .div-featured-services .div-featured .div-title .div-title-icon .div-pink-img {
+  transform: translateY(8px);
+}
