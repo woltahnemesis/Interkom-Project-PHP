@@ -1,0 +1,135 @@
+.div-nav {
+  height: 96px;
+  display: flex;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+}
+
+.div-nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 77%;
+  margin: auto;
+}
+
+.div-nav nav .div-logo {
+  cursor: pointer;
+}
+
+.div-nav nav .div-logo svg g {
+
+}
+
+
+.div-nav nav .list-links {
+  display: flex;
+  justify-content: space-between;
+  width: 682px;
+  margin-top: 25px;
+}
+
+.div-nav nav .list-links li a::after {
+  content: '';
+  width: 0;
+  height: 4px;
+  background: -webkit-linear-gradient(left,rgba(255,255,255,0.1) 0%,white 100%);
+  background: -o-linear-gradient(left,rgba(255,255,255,0.1) 0%,white 100%);
+  background: linear-gradient(to right,rgba(255,255,255,0.1) 0%,white 100%);
+  margin: 8px auto 0 auto;
+  display: block;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.div-nav nav .list-links li a {
+  color: #fff;
+  opacity: 0.8;
+  padding: 20px 0;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.div-nav nav .list-links li a:hover {
+  opacity: 1;
+}
+
+.div-nav nav .list-links li a:hover::after {
+  width: 32px;
+}
+
+.div-nav nav .list-links li a.active {
+  opacity: 1;
+}
+
+.div-nav nav .list-links li a.active::after {
+  width: 32px;
+}
+
+
+.div-nav nav ul {
+  margin-top: 1em;
+}
+
+.div-nav nav ul li {
+  list-style: none;
+}
+
+.div-nav nav ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.div-nav nav .list-btns li a {
+  border: 2px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #0067f4;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  padding: 10px 16px;
+  display: block;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.4s;
+}
+
+.div-nav nav .list-btns li a:hover {
+  background-color: #0067f4;
+  color: white;
+}
+
+/* On Scroll Event */
+
+/* For .div-nav */
+.on-scroll-background {
+  background-color: #fff;
+}
+
+/* For logo */
+.on-scroll-logo svg g {
+  fill: #0067f4 !important;
+}
+
+/* For Nav Links */
+.div-nav nav .on-scroll-links li a {
+  color: #121212;
+}
+
+.div-nav nav .on-scroll-links li a::after {
+  background: -webkit-linear-gradient(left,rgba(18,18,18,0) 0%,#121212 100%);
+  background: -o-linear-gradient(left,rgba(18,18,18,0) 0%,#121212 100%);
+  background: linear-gradient(to right,rgba(18,18,18,0) 0%,#121212 100%)
+}
+
+.div-nav nav .on-scroll-btns li a {
+  background-color: #0067f4;
+  border-color: #0067f4;
+  color: #fff;
+}

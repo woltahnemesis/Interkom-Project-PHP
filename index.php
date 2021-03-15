@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" async defer></script>
+    <link rel="stylesheet" href="./header.css">
+    <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
   </head>
   <body>
@@ -41,6 +43,12 @@
       .carousel-inner .div-main-banner .div-banner-flex {
         display: 540px;
       }
+    }
+
+    .carousel-container {
+      position: absolute;
+      top: 0px;
+      z-index: -1;
     }
 
     .carousel-inner {
@@ -195,76 +203,107 @@
       border-radius: 5px;
     }
 
+    .carousel-inner .btn-arrow-left:hover,
+    .carousel-inner .btn-arrow-right:hover {
+      background-color: transparent;
+    }
+
     </style>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="btn-indicator active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn-indicator" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn-indicator" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item w-100 div-main-banner active" style="background-color: #0067f4;">
-          <div class="div-banner-flex">
-            <div class="div-banner-desc">
-              <h1>Business is Now Digital</h1>
-              <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-              <ul>
-                <li><a href="#">GET STARTED</a></li>
-                <li><a href="#">DOWNLOAD</a></li>
-              </ul>
-              <div class="div-slant">
-
-              </div>
-            </div>
-            <div class="div-img">
-              <img src="Images/1.png" class="d-block w-80" alt="...">
-            </div>
-          </div>
+    <div class="div-nav">
+      <nav>
+        <div class="div-logo">
+          <svg enable-background="new 0 0 64 64" height="64" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#fff"><path d="m60 9.3h-56c-2.1 0-4 1.9-4 4v26.7c0 2.1 1.9 4 4 4h25.3v5.3h-10.6c-1.6 0-2.7 1.1-2.7 2.7s1.1 2.7 2.7 2.7h26.7c1.6 0 2.7-1.1 2.7-2.7s-1.1-2.7-2.7-2.7h-10.7v-5.3h25.3c2.1 0 4-1.9 4-4v-26.7c0-2.1-1.9-4-4-4zm-1.3 29.4h-53.4v-24h53.3v24z"/><path d="m17.3 36c2.1 0 4-1.9 4-4 1.3-1.1 3.5-2.7 5.3-4.3.6.3.9.3 1.4.3 1.1 0 1.9-.3 2.7-1.1l4.8 1.6c.8.3 1.6.3 2.4-.3l4.8-3.2c.5.3 1.1.3 1.6.3 2.1 0 4-1.9 4-4s-2.1-4-4.3-4c-1.9 0-3.2 1.1-3.7 2.7l-4.5 2.9-4.5-1.3c-.9-1.1-2-1.6-3.3-1.6-1.9 0-3.5 1.3-3.7 2.9-2.1 1.6-5.1 4-6.4 5.1h-.3c-2.4 0-4.3 1.9-4.3 4s1.9 4 4 4z"/></g>
+          </svg>
         </div>
-        <div class="carousel-item div-main-banner w-100" style="background-color: #0067f4;">
-          <div class="div-banner-flex">
-            <div class="div-banner-desc">
-              <h1>Crafted for Business</h1>
-              <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-              <ul>
-                <li><a href="#">GET STARTED</a></li>
-                <li><a href="#">DOWNLOAD</a></li>
-              </ul>
-              <div class="div-slant">
-
-              </div>
-            </div>
-            <div class="div-img">
-              <img src="Images/2.png" class="d-block w-80" alt="...">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item div-main-banner w-100" style="background-color: #0067f4;">
-          <div class="div-banner-flex">
-            <div class="div-banner-desc">
-              <h1>Based on Bootstrap 4</h1>
-              <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
-              <ul>
-                <li><a href="#">GET STARTED</a></li>
-                <li><a href="#">DOWNLOAD</a></li>
-              </ul>
-              <div class="div-slant">
-
-              </div>
-            </div>
-            <div class="div-img">
-              <img src="Images/3.png" class="d-block w-80" alt="...">
-            </div>
-          </div>
-      </div>
-      <button class="carousel-control-prev btn-arrow-left" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-        <span class="carousel-control-prev-icon left-arrow" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next btn-arrow-right" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-        <span class="carousel-control-next-icon right-arrow" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <ul class="list-links">
+          <li><a href="#home" class="active">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#pricing">PRICING</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#team">TEAM</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <ul class="list-btns">
+          <li><a href="#">DOWNLOAD</a></li>
+        </ul>
+      </nav>
     </div>
+    <div class="carousel-container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="btn-indicator active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn-indicator" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn-indicator" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item w-100 div-main-banner active" style="background-color: #0067f4;">
+            <div class="div-banner-flex">
+              <div class="div-banner-desc">
+                <h1>Business is Now Digital</h1>
+                <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
+                <ul>
+                  <li><a href="#">GET STARTED</a></li>
+                  <li><a href="#">DOWNLOAD</a></li>
+                </ul>
+                <div class="div-slant">
+
+                </div>
+              </div>
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/1.png" class="d-block w-80" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item div-main-banner w-100" style="background-color: #0067f4;">
+            <div class="div-banner-flex">
+              <div class="div-banner-desc">
+                <h1>Crafted for Business</h1>
+                <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
+                <ul>
+                  <li><a href="#">GET STARTED</a></li>
+                  <li><a href="#">DOWNLOAD</a></li>
+                </ul>
+                <div class="div-slant">
+
+                </div>
+              </div>
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/2.png" class="d-block w-80" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item div-main-banner w-100" style="background-color: #0067f4;">
+            <div class="div-banner-flex">
+              <div class="div-banner-desc">
+                <h1>Based on Bootstrap 4</h1>
+                <p>We blend insights and strategy to create digital products for forward-thinking organisations.</p>
+                <ul>
+                  <li><a href="#">GET STARTED</a></li>
+                  <li><a href="#">DOWNLOAD</a></li>
+                </ul>
+                <div class="div-slant">
+
+                </div>
+              </div>
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/3.png" class="d-block w-80" alt="...">
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev btn-arrow-left" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon left-arrow" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next btn-arrow-right" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+          <span class="carousel-control-next-icon right-arrow" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
   </body>
 </html>
