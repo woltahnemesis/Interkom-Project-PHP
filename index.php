@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://preview.uideck.com/items/smash/assets/images/favicon.png" type="image/png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" async defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./services.css">
     <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="./pricing.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
@@ -16,7 +18,7 @@
   <body>
     <style media="screen">
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
     </style>
     <div class="div-nav">
@@ -347,7 +349,97 @@
               </div>
             </div>
           </div>
+
         </div>
+      </div>
+    </div>
+
+    <div class="div-pricing">
+      <div class="div-pricing-intro">
+        <h3>Pricing Plans</h3>
+        <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+      </div>
+
+      <div class="div-plans">
+
+        <div class="div-price">
+
+          <div class="div-img">
+            <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/basic.svg" alt="Basic Plan Picture">
+          </div>
+
+          <h5 class="h5-center">Basic</h5>
+          <p class="p-center"><span class="p-price">$ 199</span>/month</p>
+          <p>Carefully crafted components</p>
+          <p>Amazing page examples</p>
+          <div class="div-a-btn">
+            <a href="#">GET STARTED</a>
+          </div>
+
+        </div>
+
+        <div class="div-price">
+
+          <div class="div-img">
+            <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/pro.svg" alt="Basic Plan Picture">
+          </div>
+
+          <h5 class="h5-center">Pro</h5>
+          <p class="p-center"><span class="p-price">$ 399</span>/month</p>
+          <p>Carefully crafted components</p>
+          <p>Amazing page examples</p>
+          <div class="div-a-btn">
+            <a href="#">GET STARTED</a>
+          </div>
+
+        </div>
+
+        <div class="div-price">
+
+          <div class="div-img">
+            <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/enterprise.svg" alt="Basic Plan Picture">
+          </div>
+
+          <h5 class="h5-center">Enterprise</h5>
+          <p class="p-center"><span class="p-price">$ 699</span>/month</p>
+          <p>Carefully crafted components</p>
+          <p>Amazing page examples</p>
+          <div class="div-a-btn">
+            <a href="#">GET STARTED</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="div-about">
+      <div class="div-asked">
+
+        <div class="div-asked-intro">
+          <h6>A LITTLE MORE ABOUT US</h6>
+          <h4>Frequently Asked Questions About Our Site</h4>
+        </div>
+
+        <div class="div-questions">
+          <div class="div-question-section">
+
+            <div class="div-title">
+              <a href="#">Frequently Asked Question One</a>
+              <div class="div-icon">
+                <i class="bi bi-caret-right"></i>
+              </div>
+            </div>
+
+            <div class="div-answer-section">
+              <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="div-about-img">
+        <img src="" alt="">
       </div>
     </div>
   </body>
