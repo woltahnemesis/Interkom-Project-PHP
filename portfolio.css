@@ -1,0 +1,160 @@
+.div-portfolio {
+  padding-top: 120px;
+  padding-bottom: 130px;
+  position: relative;
+}
+
+.div-portfolio .div-portfolio-intro {
+  text-align: center;
+}
+
+.div-portfolio .div-portfolio-intro h3 {
+  font-size: 44px;
+  font-weight: 600;
+  color: #121212;
+  line-height: 55px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.div-portfolio .div-portfolio-intro p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+  width: 35em;
+  margin: 24px auto 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.div-portfolio .div-works {
+  display: flex;
+  width: 1140px;
+  margin: 50px auto 0 auto;
+}
+
+.div-portfolio .div-works ul {
+  width: 18em;
+  padding: 0 15px;
+}
+
+.div-portfolio .div-works ul li {
+  position: relative;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c6c6c;
+  line-height: 48px;
+  padding: 0 30px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  margin: 5px 0;
+  background-color: transparent;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.div-portfolio .div-works ul li::after {
+  content: '';
+  width: 100%;
+  height: 48px;
+  background: -webkit-linear-gradient(left,#0067f4 0%,#2bdbdc 100%);
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.div-portfolio .div-works ul li:hover {
+  color: #fff;
+}
+
+.div-portfolio .div-works ul li:hover::after {
+  opacity: 1;
+}
+
+.div-portfolio .div-works ul li.active {
+  color: #fff;
+}
+
+.div-portfolio .div-works ul li.active::after {
+  opacity: 1;
+}
+
+.div-portfolio .div-works .div-works-image {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 865px;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image {
+  position: relative;
+  width: 275px;
+  height: 275px;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-img {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-img img{
+  width: 100%;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons {
+  position: absolute;
+  top: 0;
+  background-color: rgba(255,255,255,.8);
+  width: 248px;
+  height: 248px;
+  top: 13.5px;
+  left: 13.5px;
+  display: flex;
+  padding: 0 2.5em;
+  border-radius: 5px;
+  opacity: 0;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image:hover > div {
+  opacity: 1;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons .div-iZoom-container,
+ .div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons .div-iLink-container {
+  position: relative;
+  height: 3em;
+  width: 3em;
+  margin: auto;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons div a {
+  color: #0067f4;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons .div-iZoom-container a i::before {
+  position: absolute;
+  font-size: 2.5em;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons .div-iLink-container a i::before {
+  position: absolute;
+  font-size: 3.5em;
+  transform: rotate(-90deg);
+  top: -8px;
+}
+
+.div-portfolio .div-works .div-works-image .div-featured-image .div-hidden-buttons div img {
+  width: 100%;
+}

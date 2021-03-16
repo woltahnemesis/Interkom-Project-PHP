@@ -5,8 +5,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous" async defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
   </head>
@@ -14,212 +17,6 @@
     <style media="screen">
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-    h1, h2, h3, h4, h5 {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-    }
-
-    p {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 400;
-    }
-
-    a {
-      font-family: 'Poppins', sans-serif;
-    }
-
-    @media only screen and (min-width: 992px) {
-      .carousel-inner .div-main-banner .div-banner-flex {
-        display: 960px;
-      }
-    }
-
-    @media only screen and (min-width: 768px) {
-      .carousel-inner .div-main-banner .div-banner-flex {
-        display: 720px;
-      }
-    }
-
-    @media only screen and (min-width: 576px) {
-      .carousel-inner .div-main-banner .div-banner-flex {
-        display: 540px;
-      }
-    }
-
-    .carousel-container {
-      position: absolute;
-      top: 0px;
-      z-index: -1;
-      width: 100%;
-    }
-
-    .carousel-inner {
-      position: relative;
-    }
-
-    .carousel-inner .div-main-banner .div-banner-flex {
-      display: flex;
-      padding: 0 15px 0 15px;
-      margin: 0 auto;
-      width: 93%;
-    }
-
-    .div-banner-desc {
-      /* background-color: lightgray; */
-      position: relative;
-      width: 50%;
-      padding-top: 15em;
-      padding-left: 6em;
-      padding-right: 1em;
-      box-sizing: border-box;
-    }
-
-    .div-banner-desc h1 {
-      font-size: 88px;
-      color: #fff;
-      line-height: 96px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-    }
-
-    .div-banner-desc p {
-      color: #fff;
-      font-size: 16px;
-      line-height: 24px;
-      margin-top: 16px;
-    }
-
-    .div-banner-desc ul {
-      display: flex;
-      padding: 0;
-    }
-
-    .div-banner-desc ul li {
-      list-style: none;
-      margin: 16px 8px 0 8px;
-      padding: 0 32px;
-      border: 2px solid #fff;
-      border-radius: 50px;
-    }
-
-    .div-banner-desc ul li a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 46px;
-      color: #0067f4;
-    }
-
-    .div-banner-desc ul li:nth-child(1) {
-      background-color: #fff;
-      transition-property: all;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.4s;
-    }
-
-    .div-banner-desc ul li:nth-child(1) > a {
-      transition-property: all;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.4s;
-    }
-
-    .div-banner-desc ul li:nth-child(1):hover {
-      background-color: #0067f4;
-      color: #fff;
-    }
-
-    .div-banner-desc ul li:nth-child(1):hover > a{
-      color: #fff;
-    }
-
-    .div-banner-desc ul li:nth-child(2) {
-      transition-property: all;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.4s;
-    }
-
-    .div-banner-desc ul li:nth-child(2) a {
-      color: #fff;
-      transition-property: all;
-      transition-timing-function: ease-in-out;
-      transition-duration: 0.4s;
-    }
-
-    .div-banner-desc ul li:nth-child(2):hover {
-      background-color: #fff;
-    }
-
-    .div-banner-desc ul li:nth-child(2):hover > a {
-      color: #0067f4;
-    }
-
-    .div-banner-desc .div-slant {
-      width: 29em;
-      height: 100%;
-      background-color: darkgray;
-      position: absolute;
-      bottom: 0em;
-      right: -30em;
-      transform: skewX(20deg);
-      background: -webkit-linear-gradient(rgba(0,103,244,0.3) 0%,rgba(43,219,220,0.3) 100%);
-      background: linear-gradient(rgba(0,103,244,0.3) 0%,rgba(43,219,220,0.3) 100%);
-    }
-
-    .div-img {
-      /* background-color: darkgray; */
-      width: 50%;
-      margin-top: 5em;
-      position: relative;
-    }
-
-    .div-img img {
-      /* background-color: darkgray; */
-      width: 100%;
-    }
-
-    .carousel-container #carouselExampleIndicators .carousel-indicators {
-      margin-bottom: 3em;
-    }
-
-    .carousel-indicators button.btn-indicator {
-      width: 8px;
-      height: 8px;
-      border: 0px solid transparent;
-      border-radius: 50px;
-    }
-
-    .carousel-indicators button.active {
-      width: 16px;
-    }
-
-    .carousel-inner .btn-arrow-left {
-      width: 2.5em;
-      height: 2.5em;
-      border: 0.5px solid #fff;
-      top: 48%;
-      left: 3%;
-      border-radius: 5px;
-    }
-
-    .carousel-inner .btn-arrow-right {
-      width: 2.5em;
-      height: 2.5em;
-      border: 0.5px solid #fff;
-      top: 48%;
-      right: 3%;
-      border-radius: 5px;
-    }
-
-    .carousel-inner .btn-arrow-left,
-    .carousel-inner .btn-arrow-right,
-    .carousel-inner .btn-arrow-left:hover,
-    .carousel-inner .btn-arrow-right:hover,
-    .carousel-inner .btn-arrow-left:active,
-    .carousel-inner .btn-arrow-right:active {
-      background-color: transparent;
-    }
 
     </style>
     <div class="div-nav">
@@ -390,6 +187,167 @@
 
         </div>
 
+      </div>
+    </div>
+    <div class="div-portfolio">
+      <div class="div-portfolio-intro">
+        <h3>Featured Works</h3>
+        <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+      </div>
+      <div class="div-works">
+        <ul>
+          <li class="active">ALL WORK</li>
+          <li>BRANDING</li>
+          <li>MARKETING</li>
+          <li>PLANNING</li>
+          <li>RESEARCH</li>
+        </ul>
+        <div class="div-works-image">
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/1(1).png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/2(1).png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/3(1).png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/4.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/5.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/6.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/7.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/8.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="div-featured-image">
+            <div class="div-img">
+              <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/9.png" alt="Featured Image">
+            </div>
+            <div class="div-hidden-buttons">
+              <div class="div-iZoom-container">
+                <a href="#zoom"><i class="bi bi-zoom-in"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+              <div class="div-iLink-container">
+                <a href="#link"><i class="bi bi-link-45deg"></i></a>
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/f-shape-1.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
