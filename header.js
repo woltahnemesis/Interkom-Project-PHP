@@ -138,3 +138,38 @@ workList.forEach(function(val, i){
 
   });
 });
+
+let askedQuestions = document.querySelectorAll('.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title');
+let answeredQuestions = document.querySelectorAll('.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-answer-section');
+let pAnswered = document.querySelectorAll('.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-answer-section p');
+let answeredArrow = document.querySelectorAll('.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title .div-icon');
+let pHeight;
+
+console.log(answeredArrow);
+
+askedQuestions.forEach(function(val, i){
+
+  val.addEventListener('click', function(e){
+
+    let currentPHeight = parseInt(answeredQuestions[i].style.height.split('px')[0]);
+
+    // When value is empty
+    if(!currentPHeight) {
+      currentPHeight = 0;
+    }
+
+    if(currentPHeight <= 0) {
+
+      pHeight = pAnswered[i].offsetHeight + 20;
+
+      $(answeredQuestions[i]).animate({height: pHeight, paddingTop: 20});
+      $(answeredArrow[i]).css({'transform': 'rotate(-270deg)'});
+
+    } else if(currentPHeight > 0) {
+
+      $(answeredQuestions[i]).animate({height: '0', paddingTop: 0});
+      $(answeredArrow[i]).css({'transform': 'rotate(0deg)'});
+
+    }
+  });
+});

@@ -1,0 +1,65 @@
+.div-about {
+  padding: 125px 0 130px 0;
+}
+
+.div-about .div-sub-about {
+  display: flex;
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.div-about .div-sub-about .div-asked {
+  width: 42%;
+  padding: 0 15px;
+  transform: translateX(-15px);
+}
+
+.div-about .div-sub-about .div-asked .div-asked-intro h6 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0067f4;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+}
+
+.div-about .div-sub-about .div-asked .div-asked-intro h4 {
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: poppins,sans-serif;
+  font-weight: 600;
+  color: #121212;
+}
+
+.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+
+.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title .div-icon i::before {
+  display: inline-block;
+}
+
+.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-answer-section {
+  padding: 0 20px 0 20px;
+  overflow: hidden;
+  height: 0;
+}
+
+.div-about .div-sub-about .div-about-img {
+  width: 55%;
+  padding: 0 15px;
+}
+
+.div-about .div-sub-about .div-about-img img {
+  width: 110%;
+}

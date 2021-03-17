@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./services.css">
     <link rel="stylesheet" href="./portfolio.css">
     <link rel="stylesheet" href="./pricing.css">
+    <link rel="stylesheet" href="./about.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
@@ -413,34 +414,92 @@
       </div>
     </div>
     <div class="div-about">
-      <div class="div-asked">
+      <div class="div-sub-about">
 
-        <div class="div-asked-intro">
-          <h6>A LITTLE MORE ABOUT US</h6>
-          <h4>Frequently Asked Questions About Our Site</h4>
-        </div>
+        <div class="div-asked">
 
-        <div class="div-questions">
-          <div class="div-question-section">
+          <div class="div-asked-intro">
+            <h6>A LITTLE MORE ABOUT US</h6>
+            <h4>Frequently Asked Questions About Our Site</h4>
+          </div>
 
-            <div class="div-title">
-              <a href="#">Frequently Asked Question One</a>
-              <div class="div-icon">
-                <i class="bi bi-caret-right"></i>
+          <div class="div-questions">
+            <div class="div-question-section">
+
+              <div class="div-title">
+                <a href="#question">Frequently Asked Question One</a>
+                <div class="div-icon">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="div-answer-section">
+                <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
               </div>
             </div>
 
-            <div class="div-answer-section">
-              <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+            <div class="div-question-section">
+
+              <div class="div-title">
+                <a href="#question">Frequently Asked Question Two</a>
+                <div class="div-icon">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="div-answer-section">
+                <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+              </div>
             </div>
+
+            <div class="div-question-section">
+
+              <div class="div-title">
+                <a href="#question">Frequently Asked Question Three</a>
+                <div class="div-icon">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="div-answer-section">
+                <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+              </div>
+            </div>
+
+            <div class="div-question-section">
+
+              <div class="div-title">
+                <a href="#question">Frequently Asked Question Four</a>
+                <div class="div-icon">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="div-answer-section">
+                <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+              </div>
+            </div>
+
+            <div class="div-question-section">
+
+              <div class="div-title">
+                <a href="#question">Frequently Asked Question Five</a>
+                <div class="div-icon">
+                  <i class="bi bi-caret-right"></i>
+                </div>
+              </div>
+
+              <div class="div-answer-section">
+                <p>Morbi vehicula arcu et pellentesque tincidunt. Nunc ligula nulla, lobortis a elementum non, vulputate ut arcu. Aliquam erat volutpat. Nullam lacinia felis.</p>
+              </div>
+            </div>
+
           </div>
 
         </div>
-
+        <div class="div-about-img">
+          <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/about.jpg" alt="About Image">
+        </div>
       </div>
-      <div class="div-about-img">
-        <img src="" alt="">
-      </div>
-    </div>
   </body>
 </html>
