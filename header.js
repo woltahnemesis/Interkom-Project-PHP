@@ -173,3 +173,106 @@ askedQuestions.forEach(function(val, i){
     }
   });
 });
+
+// Carousel About-2 Section
+let arrows = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-left-about > div > div > i');
+let slidersContainer = document.querySelector('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div.div-slider-container');
+let sliderImgSrc = [
+  'https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-1.jpg',
+  'https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-2.jpg',
+  'https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-3.jpg'
+]
+
+
+let imgArrayNum = 1;
+
+let boolClick = false;
+
+arrows.forEach(function(val, i) {
+  val.addEventListener('click', function(e){
+
+    let divSliders = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
+
+    let sliderHTML = '<p>“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p><hr/> <div class="div-review"> <div class="div-img"> <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-1.jpg" alt=""> </div><div class="div-profile-info"> <h5>Mr. Jems Bond</h5> <p>CEO Mbuild Firm</p></div><div class="div-stars-review"> <div class="div-stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div><p>( 7 Reviews )</p></div></div>';
+    let newDivSlider = document.createElement('div');
+
+    newDivSlider.innerHTML = sliderHTML;
+    newDivSlider.classList.toggle('div-slider');
+    $(newDivSlider).css({'padding' : '0', width : '0'});
+
+    if(i == 0) {
+      slidersContainer.insertBefore(newDivSlider, divSliders[0]);
+      $(divSliders[2]).animate({'padding' : '0', width: '0'}, 'easeInExpo');
+      setTimeout(function(){divSliders[2].remove()}, 400);
+    } else {
+      slidersContainer.appendChild(newDivSlider);
+      $(divSliders[0]).animate({'padding' : '0', width: '0'}, 'easeInExpo');
+      setTimeout(function(){divSliders[0].remove()}, 400);
+    }
+
+    let newImages = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div > div > div.div-img > img');
+
+    if(i == 0) {
+      imgArrayNum++;
+
+      if(imgArrayNum > 2) {
+        imgArrayNum = 0;
+      }
+
+    } else if (i == 1) {
+
+      imgArrayNum--;
+
+      if(imgArrayNum < 0) {
+        imgArrayNum = 2;
+      }
+    }
+
+    if(i == 0) {
+      newImages[0].setAttribute('src', sliderImgSrc[imgArrayNum]);
+      newImages[1].setAttribute('src', sliderImgSrc[imgArrayNum % 3]);
+    } else {
+      newImages[2].setAttribute('src', sliderImgSrc[imgArrayNum]);
+      setTimeout(function(){
+        newImages[1].setAttribute('src', sliderImgSrc[imgArrayNum % 3]);
+      }, 300);
+    }
+
+    let newSliders = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
+
+    newSliders.forEach(function(val, i){
+      $(val).animate({'padding' : '40px 30px 50px 30px', width: '500px'}, 'easeInExpo');
+    });
+
+    boolClick = true;
+
+    arrows[1].style.pointerEvents = 'none';
+    arrows[0].style.pointerEvents = 'none';
+    setTimeout(function(){
+      arrows[1].style.pointerEvents = 'auto';
+      arrows[0].style.pointerEvents = 'auto';
+    }, 800);
+
+  });
+});
+
+function autoSlide(){
+
+  let interval = setInterval(function(){
+
+    console.log('Click: '+boolClick);
+
+    if(boolClick) {
+      clearInterval(interval);
+      boolClick = false;
+      autoSlide();
+    } else {
+      arrows[1].click();
+    }
+
+  }, 2500);
+
+
+}
+
+autoSlide();

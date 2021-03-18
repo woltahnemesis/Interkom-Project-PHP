@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./portfolio.css">
     <link rel="stylesheet" href="./pricing.css">
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about-2.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
@@ -500,6 +501,123 @@
         <div class="div-about-img">
           <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/about.jpg" alt="About Image">
         </div>
+      </div>
+      <div class="div-about-2">
+
+        <div class="div-sub-about-2">
+          <div class="div-left-about">
+            <h6>TESTIMONIALS</h6>
+            <h4>What Clients Says About Us</h4>
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <p>Duis et metus et massa tempus lacinia. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ultricies, orci molestie blandit interdum.</p>
+            <p>ipsum ante pellentesque nisl, eget mollis turpis quam nec eros. ultricies, orci molestie blandit interdum.</p>
+
+            <div class="div-arrows">
+              <div class="div-arrow">
+                <i class="bi bi-arrow-left"></i>
+              </div>
+              <div class="div-arrow">
+                <i class="bi bi-arrow-right"></i>
+              </div>
+            </div>
+
+          </div>
+          <div class="div-right-about">
+            <div class="div-right-container">
+
+              <div class="div-back-quote">
+                <div class="div-quote">
+                  <i class="bi bi-chat-right-quote"></i>
+                </div>
+              </div>
+
+              <div class="div-carousel">
+                <div class="div-slider-container">
+
+                  <div class="div-slider">
+                    <p>“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                    <hr />
+                    <div class="div-review">
+                      <div class="div-img">
+                        <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-1.jpg" alt="">
+                      </div>
+                      <div class="div-profile-info">
+                        <h5>Mr. Jems Bond</h5>
+                        <p>CEO Mbuild Firm</p>
+                      </div>
+                      <div class="div-stars-review">
+                        <div class="div-stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>( 7 Reviews )</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="div-slider">
+                    <p>“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                    <hr />
+                    <div class="div-review">
+                      <div class="div-img">
+                        <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-2.jpg" alt="">
+                      </div>
+                      <div class="div-profile-info">
+                        <h5>Mr. Jems Bond</h5>
+                        <p>CEO Mbuild Firm</p>
+                      </div>
+                      <div class="div-stars-review">
+                        <div class="div-stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>( 7 Reviews )</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="div-slider">
+                    <p>“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p>
+                    <hr />
+                    <div class="div-review">
+                      <div class="div-img">
+                        <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-3.jpg" alt="">
+                      </div>
+                      <div class="div-profile-info">
+                        <h5>Mr. Jems Bond</h5>
+                        <p>CEO Mbuild Firm</p>
+                      </div>
+                      <div class="div-stars-review">
+                        <div class="div-stars">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p>( 7 Reviews )</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
       </div>
   </body>
 </html>

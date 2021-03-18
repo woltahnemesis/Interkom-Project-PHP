@@ -1,0 +1,224 @@
+.div-about-2 {
+  padding: 80px 0 130px 0;
+  background-color: #f4f6f7;
+}
+
+.div-about-2 .div-sub-about-2 {
+  display: flex;
+  width: 68em;
+  margin: 0 auto;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about,
+.div-about-2 .div-sub-about-2 .div-right-about {
+  width: 50%;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about h6 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0067f4;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about h4 {
+  font-size: 32px;
+  padding-top: 10px;
+  color: #121212;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  width: 10em;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul {
+  display: flex;
+  padding-top: 20px;
+  width: 6em;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul li {
+  list-style: none;
+  height: 5px;
+  background-color: #0067f4;
+  opacity: .2;
+  border-radius: 50px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul li:nth-child(1) {
+  width: 40px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul li:nth-child(2) {
+  width: 15px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul li:nth-child(3) {
+  width: 10px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about ul li:nth-child(4) {
+  width: 5px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about p:nth-child(4) {
+  padding-top: 15px;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #121212;
+  font-family: 'Poppins', sans-serif;
+  width: 28em;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about .div-arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 3.5em;
+  margin-top: 5.5em;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about .div-arrows .div-arrow i::before {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #a4a4a4;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.div-about-2 .div-sub-about-2 .div-left-about .div-arrows .div-arrow i:hover::before {
+  color: #000;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container {
+  position: relative;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-back-quote {
+  background-color: #e9ecef;
+  -webkit-box-shadow: 0 30px 70px 0 rgb(0 0 0 / 7%);
+  -moz-box-shadow: 0 30px 70px 0 rgba(0,0,0,.07);
+  border-radius: 50px;
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-back-quote .div-quote {
+  height: 95px;
+  transform: translate(1.5em, 1.5em);
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-back-quote .div-quote i::before {
+  font-size: 130px;
+  color: #0067f4;
+  opacity: 0.2;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-carousel {
+  position: absolute;
+  bottom: 0;
+  right: -2em;
+  width: 500px;
+  overflow: hidden;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.div-slider-container {
+  height: 380px;
+  width: 1500px;
+  display: flex;
+  overflow: hidden;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div > div.div-carousel > div > div.div-slider {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 40px 30px 50px 30px;
+  transform: translate(-500px, 0);
+  overflow: hidden;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div > div.div-carousel > div > div.div-slider > p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #121212;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div > div.div-carousel > div > div > hr {
+  margin-bottom: 66px;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-carousel
+.div-slider-container .div-slider .div-review {
+  display: flex;
+  height: 70px;
+  position: relative;
+}
+
+.div-about-2 .div-sub-about-2 .div-right-about .div-right-container .div-carousel
+.div-slider-container .div-slider .div-review .div-img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50px;
+  margin-top: 0;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div >
+div.div-right-about > div > div.div-carousel > div > div > div > div.div-profile-info {
+  width: 151px;
+  padding-left: 30px;
+  transform: translateY(9px);
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div > div > div > div.div-profile-info > h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #121212;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div > div > div > div.div-profile-info > p {
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #a4a4a4;
+  margin: 0;
+  height: 21px;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div > div > div > div.div-stars-review {
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div > div > div > div.div-stars-review > div > i::before {
+  color: #ffb400;
+  font-size: 14px;
+}
+
+body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div > div > div > div.div-stars-review > p {
+  font-size: 14px;
+  color: #000;
+  margin-top: 5px;
+}

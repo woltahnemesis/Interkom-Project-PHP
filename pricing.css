@@ -32,7 +32,8 @@
 .div-pricing .div-plans {
   display: flex;
   justify-content: space-between;
-  padding: 0 10.5em;
+  width: 69.5em;
+  margin: 0 auto;
 }
 
 .div-pricing .div-plans .div-price {
