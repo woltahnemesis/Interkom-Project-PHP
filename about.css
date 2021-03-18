@@ -5,7 +5,7 @@
 .div-about .div-sub-about {
   display: flex;
   width: 1140px;
-  padding: 0 15px;
+  padding: 0 15px 130px 0;
   margin: 0 auto;
 }
 

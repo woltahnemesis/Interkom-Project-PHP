@@ -165,6 +165,13 @@ askedQuestions.forEach(function(val, i){
       $(answeredQuestions[i]).animate({height: pHeight, paddingTop: 20});
       $(answeredArrow[i]).css({'transform': 'rotate(-270deg)'});
 
+      askedQuestions.forEach(function(val, j){
+        if(i != j) {
+          $(answeredQuestions[j]).animate({height: 0, paddingTop: 0});
+          $(answeredArrow[j]).css({'transform': 'rotate(0deg)'});
+        }
+      });
+
     } else if(currentPHeight > 0) {
 
       $(answeredQuestions[i]).animate({height: '0', paddingTop: 0});
@@ -259,8 +266,6 @@ arrows.forEach(function(val, i) {
 function autoSlide(){
 
   let interval = setInterval(function(){
-
-    console.log('Click: '+boolClick);
 
     if(boolClick) {
       clearInterval(interval);

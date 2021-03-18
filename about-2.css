@@ -130,7 +130,7 @@
   overflow: hidden;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div.div-slider-container {
   height: 380px;
   width: 1500px;
@@ -138,7 +138,7 @@ div.div-slider-container {
   overflow: hidden;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
 div > div.div-carousel > div > div.div-slider {
   background-color: #fff;
   border-radius: 50px;
@@ -147,7 +147,7 @@ div > div.div-carousel > div > div.div-slider {
   overflow: hidden;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
 div > div.div-carousel > div > div.div-slider > p {
   font-size: 24px;
   font-weight: 400;
@@ -155,7 +155,7 @@ div > div.div-carousel > div > div.div-slider > p {
   color: #121212;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about >
 div > div.div-carousel > div > div > hr {
   margin-bottom: 66px;
 }
@@ -176,14 +176,14 @@ div > div.div-carousel > div > div > hr {
   margin-top: 0;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div >
+div.carousel-container > div.div-about > div.div-about-2 > div >
 div.div-right-about > div > div.div-carousel > div > div > div > div.div-profile-info {
   width: 151px;
   padding-left: 30px;
   transform: translateY(9px);
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div > div > div > div.div-profile-info > h5 {
   font-size: 16px;
   font-weight: 700;
@@ -193,7 +193,7 @@ div > div > div > div.div-profile-info > h5 {
   margin-bottom: 0;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div > div > div > div.div-profile-info > p {
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
@@ -203,20 +203,20 @@ div > div > div > div.div-profile-info > p {
   height: 21px;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div > div > div > div.div-stars-review {
   position: absolute;
   right: 0;
   top: -6px;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div > div > div > div.div-stars-review > div > i::before {
   color: #ffb400;
   font-size: 14px;
 }
 
-body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
+div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel >
 div > div > div > div.div-stars-review > p {
   font-size: 14px;
   color: #000;
