@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./pricing.css">
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./about-2.css">
+    <link rel="stylesheet" href="./team.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
@@ -617,7 +618,76 @@
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="div-team">
+        <div class="div-sub-team">
+          <div class="div-team-intro">
+            <h3>Meet The Team</h3>
+            <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+          </div>
+          <div class="div-photos">
+
+            <div class="div-photo-container">
+
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/team-1.jpg" alt="Team Photo">
+              </div>
+              <div class="div-info">
+                <div class="div-sMedias">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h4>
+                  <a href="#">Jeffery Riley</a>
+                </h4>
+                <p>Art Director</p>
+              </div>
+
+            </div>
+            <div class="div-photo-container">
+
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/team-2.jpg" alt="Team Photo">
+              </div>
+              <div class="div-info">
+                <div class="div-sMedias">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h4>
+                  <a href="#">Riley Beata</a>
+                </h4>
+                <p>Web Developer</p>
+              </div>
+
+            </div>
+            <div class="div-photo-container">
+
+              <div class="div-img">
+                <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/team-3.jpg" alt="Team Photo">
+              </div>
+              <div class="div-info">
+                <div class="div-sMedias">
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+                <h4>
+                  <a href="#">Mark A. Parker</a>
+                </h4>
+                <p>UX Designer</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
       </div>
   </body>
 </html>
