@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./about-2.css">
     <link rel="stylesheet" href="./team.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./footer.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./header.js" async defer></script>
     <title>Interkom Project</title>
@@ -688,6 +690,101 @@
 
           </div>
         </div>
+      </div>
+      <div class="div-contact">
+        <div class="div-sub-contact">
+          <div class="div-intro">
+            <h3>Contact</h3>
+            <p>Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+          </div>
+          <div class="div-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25234.27242374832!2d-122.43435641184617!3d37.75993728320963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3c5f803323%3A0x35800073de45189!2sMission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sca!4v1616156030641!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="div-contact-info">
+
+            <div class="div-sub-info">
+              <div class="div-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="div-info">
+                <p>Elizabeth St, Melbourne</p>
+                <p>1202 Australia.</p>
+              </div>
+            </div>
+
+            <div class="div-sub-info">
+              <div class="div-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="div-info">
+                <p>hello@ayroui.com</p>
+                <p>support@uideck.com</p>
+              </div>
+            </div>
+
+            <div class="div-sub-info">
+              <div class="div-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="div-info">
+                <p>+333 789-321-654</p>
+                <p>+333 985-458-609</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="div-form">
+            <h4>
+              <i class="bi bi-envelope"></i>
+              Leave
+              <span>A Message</span>
+            </h4>
+            <form action="./index.php" method="post">
+              <div class="input-group mb-3">
+                <label for="">Name</label>
+                <input type="text" class="form-control" style="color: #6c6c6c; font-family: 'Poppins', sans-serif; width: 35px; border-right: 0 solid transparent;" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon1" style="margin-right: 35px; background-color: #fff; border-left: 0 solid transparent;">
+                  <i class="bi bi-person"></i>
+                </span>
+                <label for="">Username</label>
+                <input type="text" class="form-control" style="color: #6c6c6c; font-family: 'Poppins', sans-serif; border-right: 0 solid transparent;" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text" style="background-color: #fff; border-left: 0 solid transparent;" id="basic-addon1">
+                  <i class="bi bi-envelope"></i>
+                </span>
+              </div>
+              <div class="input-group">
+                <label for="">Message</label>
+                <textarea class="form-control" style="color: #6c6c6c; font-family: 'Poppins', sans-serif; resize: none; border-right: 0 solid transparent; height: 130px;" aria-label="With textarea" placeholder="Message"></textarea>
+                <span class="input-group-text" style="background-color: #fff; border-left: 0 solid transparent;">
+                  <i class="bi bi-pencil-square" style="transform: translateY(-45px)"></i>
+                </span>
+              </div>
+              <button type="button" name="button">SEND MESSAGE</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="div-footer">
+        <a href="#">
+          <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/logo.svg" alt="">
+        </a>
+        <div class="div-sMedias">
+          <div class="div-icon">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </div>
+          <div class="div-icon">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+          </div>
+          <div class="div-icon">
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+          <div class="div-icon">
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <p>+8801234567890</p>
+        <p>support@uideck.com</p>
+        <p class="text">Designed by <a href="https://uideck.com" rel="nofollow">UIdeck</a> and Built-with <a rel="nofollow" href="https://ayroui.com">Ayro UI</a></p>
       </div>
   </body>
 </html>

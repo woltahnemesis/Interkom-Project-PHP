@@ -4,6 +4,16 @@ let divLogo = document.querySelector('.div-nav nav .div-logo');
 let divNavLinks = document.querySelector('.div-nav nav .list-links');
 let divNavBtn = document.querySelector('.div-nav nav .list-btns');
 
+let goToLinks = [
+  document.querySelector('div.carousel-container'),
+  document.querySelector('div.carousel-container > div.div-services'),
+  document.querySelector('div.carousel-container > div.div-portfolio'),
+  document.querySelector('div.carousel-container > div.div-pricing'),
+  document.querySelector('div.carousel-container > div.div-about'),
+  document.querySelector('div.carousel-container > div.div-about > div.div-team'),
+  document.querySelector('div.carousel-container > div.div-about > div.div-contact')
+];
+
 let divNavPos = divNav.offsetTop;
 
 window.addEventListener('scroll', function(e){
@@ -43,6 +53,7 @@ navLinks.forEach(function(val, i){
 
     },1000);
 
+    goToLinks[i].scrollIntoView({behavior: 'smooth'});
 
   });
 
@@ -145,8 +156,6 @@ let pAnswered = document.querySelectorAll('.div-about .div-sub-about .div-asked 
 let answeredArrow = document.querySelectorAll('.div-about .div-sub-about .div-asked .div-questions .div-question-section .div-title .div-icon');
 let pHeight;
 
-console.log(answeredArrow);
-
 askedQuestions.forEach(function(val, i){
 
   val.addEventListener('click', function(e){
@@ -182,8 +191,8 @@ askedQuestions.forEach(function(val, i){
 });
 
 // Carousel About-2 Section
-let arrows = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-left-about > div > div > i');
-let slidersContainer = document.querySelector('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div.div-slider-container');
+let arrows = document.querySelectorAll('div.carousel-container > div.div-about > div.div-about-2 > div > div.div-left-about > div > div > i');
+let slidersContainer = document.querySelector('div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div.div-slider-container');
 let sliderImgSrc = [
   'https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-1.jpg',
   'https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-2.jpg',
@@ -198,7 +207,7 @@ let boolClick = false;
 arrows.forEach(function(val, i) {
   val.addEventListener('click', function(e){
 
-    let divSliders = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
+    let divSliders = document.querySelectorAll('div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
 
     let sliderHTML = '<p>“Praesent scelerisque, odio eu fermentum malesuada, nisi arcu volutpat nisl, sit amet convallis nunc turp.”</p><hr/> <div class="div-review"> <div class="div-img"> <img src="https://woltahnemesis.github.io/Interkom-Project-HTML/Images/author-1.jpg" alt=""> </div><div class="div-profile-info"> <h5>Mr. Jems Bond</h5> <p>CEO Mbuild Firm</p></div><div class="div-stars-review"> <div class="div-stars"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div><p>( 7 Reviews )</p></div></div>';
     let newDivSlider = document.createElement('div');
@@ -217,7 +226,7 @@ arrows.forEach(function(val, i) {
       setTimeout(function(){divSliders[0].remove()}, 400);
     }
 
-    let newImages = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div > div > div.div-img > img');
+    let newImages = document.querySelectorAll('div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div > div > div.div-img > img');
 
     if(i == 0) {
       imgArrayNum++;
@@ -245,7 +254,7 @@ arrows.forEach(function(val, i) {
       }, 300);
     }
 
-    let newSliders = document.querySelectorAll('body > div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
+    let newSliders = document.querySelectorAll('div.carousel-container > div.div-about > div.div-about-2 > div > div.div-right-about > div > div.div-carousel > div > div.div-slider');
 
     newSliders.forEach(function(val, i){
       $(val).animate({'padding' : '40px 30px 50px 30px', width: '500px'}, 'easeInExpo');
